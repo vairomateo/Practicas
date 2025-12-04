@@ -1,0 +1,11 @@
+// _footer.scss
+.footer__link {
+    color: $color-principal;
+    text-decoration: none;
+    transition: color $transicion;
+
+    &:hover {
+        color: $color-principal;
+        text-decoration: underline;
+    }
+}

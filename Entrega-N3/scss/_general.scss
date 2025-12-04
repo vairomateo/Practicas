@@ -1,0 +1,27 @@
+// _general.scss
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: $fuente-base;
+}
+
+main {
+    flex: 1; // empuja el footer al final
+}
+
+// títulos adaptables
+h1 {
+    font-size: 2.2rem;
+    @include mobile {
+        font-size: 1.8rem;
+        }
+    }

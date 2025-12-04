@@ -1,0 +1,17 @@
+@keyframes zoom-in {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
+
+.logo {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    
+    &:hover {
+        animation: zoom-in 0.3s ease forwards;
+    }
+}
